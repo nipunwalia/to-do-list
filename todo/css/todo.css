@@ -97,3 +97,10 @@ body{
 	background-height:100%;
 }
 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 0;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
